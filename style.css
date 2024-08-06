@@ -1,0 +1,262 @@
+/* 
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #FAF3E0;
+}
+#header {
+    background-color: #50C878;
+    color: #FFFFFF;
+    padding: 10px 0;
+}
+#header h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+#menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu li {
+    display: inline-block;
+}
+#menu li a {
+    font-size: 1.1rem;
+    color: #FFFFFF;
+    padding: 15px 20px;
+    display: block;
+    text-decoration: none;
+}
+#menu li a:hover {
+    background-color: #B76E79;
+    border-radius: 5px;
+    color: #FAF3E0;
+}
+#banner {
+    background-image: url('images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 80px 0;
+    color: #FFFFFF;
+}
+#banner h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    /* background: rgba(0, 0, 0, 0.5); */
+    /* display: inline-block;
+ 
+    padding: 10px;
+    
+    color: white;
+}
+#banner p {
+    font-size: 1.2rem;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+}
+#banner .btn {
+    background-color: #B76E79;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 20px;
+}
+.section {
+    padding: 60px 0;
+}
+.section h2 {
+    color: #50C878;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.section h2::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: #B76E79;
+    margin: 10px auto;
+}
+#customDesignImage{
+    width: 200px;
+    height: 200px;
+}
+.service-box, .testimonial-box, .news-post {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.service-box img, .testimonial-box img, .news-post img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.service-box h3, .testimonial-box h3, .news-post h3 {
+    margin-top: 15px;
+    color: #50C878;
+}
+.service-box p, .testimonial-box p, .news-post p {
+    margin-top: 10px;
+    color: #333333;
+}
+#footer {
+    background-color: #50C878;
+    color: #FFFFFF;
+    padding: 30px 0;
+    text-align: center;
+}
+#footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#social-icons {
+    list-style: none;
+    padding: 0;
+}
+#social-icons li {
+    display: inline;
+    margin: 0 10px;
+}
+#social-icons i {
+    font-size: 1.5rem;
+    color: #FFFFFF;
+
+}  */
+  
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #FAF3E0;
+}
+#header {
+    background-color: #8B4513;
+    color: #FFFFFF;
+    padding: 10px 0;
+}
+#header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+#menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu li {
+    display: inline-block;
+}
+#menu li a {
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    padding: 15px 20px;
+    display: block;
+    text-decoration: none;
+}
+#menu li a:hover {
+    background-color: #B76E79;
+    border-radius: 5px;
+    color: #FAF3E0;
+}
+#banner {
+    background-image: url('images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 80px 0;
+    height: 400px;
+    color: #FFFFFF;
+}
+#banner h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px;
+    color: white;
+}
+#banner p {
+    font-size: 1.4rem;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+}
+#banner .btn {
+    background-color: #B76E79;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 20px;
+}
+.section {
+    padding: 60px 0;
+}
+.section h2 {
+    color: #8B4513;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.section h2::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: #B76E79;
+    margin: 10px auto;
+}
+#customDesignImage,
+#repairServiceImage,
+#gemstoneAppraisalImage,
+#customer1Image,
+#customer2Image,
+#customer3Image,
+#newCollectionImage,
+#jewelryTrendsImage,
+#jewelryCareImage {
+    width: 250px;
+    height: 250px;
+}
+.service-box, .testimonial-box, .news-post {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.service-box img, .testimonial-box img, .news-post img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.service-box h3, .testimonial-box h3, .news-post h3 {
+    margin-top: 15px;
+    color: #8B4513;
+}
+.service-box p, .testimonial-box p, .news-post p {
+    margin-top: 10px;
+    color: #333333;
+}
+#footer {
+    background-color: #8B4513;
+    color: #FFFFFF;
+    padding: 30px 0;
+    text-align: center;
+}
+#footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#social-icons {
+    list-style: none;
+    padding: 0;
+}
+#social-icons li {
+    display: inline;
+    margin: 0 10px;
+}
+#social-icons i {
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+#color {
+    color: #8B4513;
+    text-decoration: none;
+
+}
